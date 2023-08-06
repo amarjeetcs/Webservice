@@ -1,0 +1,21 @@
+server:
+  port: 8081
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/Test
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+  jpa:
+    show-sql: true
+  
+  
+  #changing username and password of default login form based authentication
+  #security:
+    #user:
+      #name: amarjeet
+      #password: root
+      #role: admin
+      
